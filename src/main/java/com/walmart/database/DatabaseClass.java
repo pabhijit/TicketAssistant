@@ -1,7 +1,6 @@
 package com.walmart.database;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import com.walmart.helpers.TicketConstants;
@@ -14,8 +13,8 @@ import com.walmart.model.SeatHold;
  */
 public class DatabaseClass {
 
-	private static Map<Integer,Level> levels = new HashMap<>();
-	private static Map<Integer,SeatHold> seatHolds = new HashMap<>();
+	private static ConcurrentHashMap<Integer,Level> levels = new ConcurrentHashMap<>();
+	private static ConcurrentHashMap<Integer,SeatHold> seatHolds = new ConcurrentHashMap<>();
 	private static AtomicInteger seatHoldIdGen = new AtomicInteger(100);
 	private static AtomicInteger custIdGen = new AtomicInteger(667);
 	private static AtomicInteger reserveConfirmGen = new AtomicInteger(1020);
@@ -31,11 +30,11 @@ public class DatabaseClass {
 		levels.put(4,l4);
 	}
 
-	public static Map<Integer, Level> getLevels() {
+	public static ConcurrentHashMap<Integer, Level> getLevels() {
 		return levels;
 	}
 
-	public static Map<Integer, SeatHold> getSeatHolds() {
+	public static ConcurrentHashMap<Integer, SeatHold> getSeatHolds() {
 		return seatHolds;
 	}
 
