@@ -13,3 +13,4 @@ Instructions:
 <p>]
 <p>....
 <p>Reserve tickets:http://localhost:9998/TicketAssistant/ticket/seat/102/abc@gmail.com
+<p>These tests are also covered by TicketServiceTest.java (Used JerseyTestNg). 
