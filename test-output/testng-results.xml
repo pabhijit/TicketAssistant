@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32934" started-at="2015-11-23T07:26:12Z" finished-at="2015-11-23T07:26:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32934" started-at="2015-11-23T07:26:12Z" finished-at="2015-11-23T07:26:44Z">
+      <class name="com.walmart.TicketServiceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.walmart.TicketServiceTest@27c20538]" name="setUp" is-config="true" duration-ms="819" started-at="2015-11-23T02:26:12Z" finished-at="2015-11-23T02:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindAndHoldSeats()[pri:0, instance:com.walmart.TicketServiceTest@27c20538]" name="testFindAndHoldSeats" duration-ms="31962" started-at="2015-11-23T02:26:12Z" finished-at="2015-11-23T02:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAndHoldSeats -->
+        <test-method status="PASS" signature="testNumSeatsAvailable()[pri:0, instance:com.walmart.TicketServiceTest@27c20538]" name="testNumSeatsAvailable" duration-ms="70" started-at="2015-11-23T02:26:44Z" finished-at="2015-11-23T02:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumSeatsAvailable -->
+        <test-method status="PASS" signature="testReserveSeats()[pri:0, instance:com.walmart.TicketServiceTest@27c20538]" name="testReserveSeats" duration-ms="55" started-at="2015-11-23T02:26:44Z" finished-at="2015-11-23T02:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReserveSeats -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.walmart.TicketServiceTest@27c20538]" name="tearDown" is-config="true" duration-ms="13" started-at="2015-11-23T02:26:44Z" finished-at="2015-11-23T02:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.TicketServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

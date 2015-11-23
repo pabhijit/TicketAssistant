@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.walmart.TicketServiceTest" duration-ms="3" started-at="2015-11-23T01:46:20Z" finished-at="2015-11-23T01:46:20Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3" started-at="2015-11-23T01:46:20Z" finished-at="2015-11-23T01:46:20Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- com.walmart.TicketServiceTest -->
+</testng-results>
