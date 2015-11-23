@@ -71,7 +71,7 @@ public class TicketResource {
 	}
 
 	private String getUriForBook(UriInfo uriInfo, SeatHold seatHold) {
-		String uri = uriInfo.getBaseUriBuilder()
+		String uri = uriInfo.getBaseUriBuilder().path("seat")
 				.path(Integer.toString(seatHold.getSeatHoldID()))
 				.path(seatHold.getCustomer().getEmail())
 				.build()
